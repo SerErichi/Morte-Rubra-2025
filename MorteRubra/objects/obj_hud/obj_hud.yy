@@ -9,8 +9,8 @@
   "name":"obj_hud",
   "overriddenProperties":[],
   "parent":{
-    "name":"HUD",
-    "path":"folders/HUD.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

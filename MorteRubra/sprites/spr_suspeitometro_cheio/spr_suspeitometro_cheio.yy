@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Suspeitometro_vazio",
+  "%Name":"spr_suspeitometro_cheio",
   "bboxMode":0,
   "bbox_bottom":8,
   "bbox_left":0,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"0800ab7a-3d83-4abc-b04a-081693aa8c32","blendMode":0,"displayName":"default","isLocked":false,"name":"0800ab7a-3d83-4abc-b04a-081693aa8c32","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Suspeitometro_vazio",
+  "name":"spr_suspeitometro_cheio",
   "nineSlice":null,
   "origin":0,
   "parent":{
     "name":"HUD",
-    "path":"folders/HUD.yy",
+    "path":"folders/Sprites/HUD.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Suspeitometro_vazio",
+    "%Name":"spr_suspeitometro_cheio",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Suspeitometro_vazio",
+    "name":"spr_suspeitometro_cheio",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,7 +71,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b6ce2c3a-657e-40e3-9c7c-6bc440dc1e3e","path":"sprites/Suspeitometro_vazio/Suspeitometro_vazio.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b6ce2c3a-657e-40e3-9c7c-6bc440dc1e3e","path":"sprites/spr_suspeitometro_cheio/spr_suspeitometro_cheio.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"3ebb9946-98e3-4f92-9a95-045ef0010d65","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

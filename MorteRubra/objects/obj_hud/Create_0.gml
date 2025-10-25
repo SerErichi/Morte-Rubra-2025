@@ -1,1 +1,1 @@
-i = 0;
+///barra de suspeito
