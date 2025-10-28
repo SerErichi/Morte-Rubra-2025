@@ -24,3 +24,14 @@ function Vector2D(_x = 0, _y = 0) constructor{
 		}	
 	}
 }
+
+//funçao com o proposito de alterar a dimensão do sprite (sujeita a fuder a qualidade, cautela na dimensao)
+//parametro é um Vetor2D
+function updateImageScale (_desiredDimensions)
+{
+	// new scale is a function that predicts the certatint image_scale correspondent to a certain dimension
+	var _newXscale = _desiredDimensions.x/self.sprite_width;
+	var _newYscale = _desiredDimensions.y/self.sprite_height;
+	self.image_xscale *= _newXscale; 
+	self.image_yscale *= _newYscale; 
+}; 

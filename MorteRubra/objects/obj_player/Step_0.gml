@@ -24,8 +24,8 @@ if (place_meeting(x, y + movimento.y, colidiveis)){
 	movimento.y = 0;
 }
 
-show_debug_message("move: ({0}, {1}), input: ({2}, {3}) ", movimento.x, movimento.y,
-					input_movi.x, input_movi.y);
+//show_debug_message("move: ({0}, {1}), input: ({2}, {3}) ", movimento.x, movimento.y,
+//					input_movi.x, input_movi.y);
 
 
 x += movimento.x;
