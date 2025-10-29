@@ -22,4 +22,5 @@ alarm[0] = timerToShowChars;
 addDialogue = function(_string)
 {
 	array_push(dialogues, _string);	
+	//show_debug_message(dialogues);
 }
