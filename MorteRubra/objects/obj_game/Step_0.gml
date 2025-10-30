@@ -4,6 +4,7 @@ if (keyboard_check(vk_enter)){
 	_caixaDi.addDialogue("Isso e um teste");
 	_caixaDi.addDialogue("................ oioioioioi oioioioi oioioioi oioioioi oioioioi oioioioi ................");
 	_caixaDi.addDialogue("BAZINGA");
+	_caixaDi.addDialogue("Isso e real?");
 }
 
 // Teste que aumenta o nivel de suspeita
@@ -12,9 +13,9 @@ if(keyboard_check_pressed(ord("E"))){
 }
 
 // Printa GAME OVER quando o nivel de suspeita chega no máximo
-if(global.sus_level >= global.max_sus){
-	show_debug_message("Game over");
-}	
+//if(global.sus_level >= global.max_sus){
+//	show_debug_message("Game over");
+//}	
 
 Aumentar_Suspeita();
 
